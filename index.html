@@ -13,8 +13,8 @@
 </head>
 
 <body>
-	<section>
-		<form class="account">
+	<section class="account">
+		<form>
 			<h2>Create an Account</h2>
 			<div class="flname">
 				<label class="firstname">
@@ -26,19 +26,23 @@
 					<input name="lastname" type="text">
 				</label>
 			</div>
-			<div class="email">
+			<div>
 				<label class="email">
 					E-mail
-					<input name="email" type="email">
+					<input name="e-mail" type="email">
 					<p>
 						We'll never share your email with anyone else.
 					</p>
 				</label>
 			</div>
-			<div class="gender">
-				<label>
-					<input type="radio" name="gender">Male
-					<input type="radio" name="gender">Female
+			<div class="g">
+				<label class="gender">
+					<input name="gender" type="radio" class="gender">
+					<p>Male</p>
+				</label>
+				<label class="gender">
+					<input name="gender" type="radio" class="gender">
+					<p>Female</p>
 				</label>
 			</div>
 			<div class="cc">
@@ -70,6 +74,29 @@
 			<div class="have">
 				<p>Have an account?</p>
 				<a href="">Log in</a>
+			</div>
+		</form>
+	</section>
+
+	<section class="profile">
+		<form>
+			<h2>Profile</h2>
+			<div class="hero">
+				<img src="assets/images/Image.png" alt="Profile picture">
+				<label class="file">
+					<input type="file" name="image">
+				</label>
+				<button class="trash"></button>
+			</div>
+			<div class="name">
+				<label class="n">
+					Name
+					<input name="name" type="text">
+				</label>
+				<label class="e">
+					E-mail
+					<input name="email" type="email">
+				</label>
 			</div>
 		</form>
 	</section>
