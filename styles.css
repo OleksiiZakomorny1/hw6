@@ -6,6 +6,11 @@ body {
 	margin-left: 135px;
 }
 
+input,
+select {
+	margin-top: 7px;
+}
+
 .account,
 .profile {
 	background-color: white;
@@ -62,12 +67,8 @@ select {
 
 .email {
 	width: 500px;
-	height: 92px;
 	display: flex;
 	flex-direction: column;
-}
-
-.email {
 	margin-left: 36px;
 }
 
@@ -99,12 +100,16 @@ label .gender {
 	margin-left: 36px;
 }
 
+.cc p {
+	margin-bottom: 0px;
+}
+
 .country select {
 	width: 245px;
 }
 
 .city input {
-	width: 235px;
+	width: 237px;
 }
 
 .signup {
@@ -155,6 +160,8 @@ hr {
 
 .hero {
 	display: flex;
+	margin-left: 36px;
+	margin-bottom: 20px;
 }
 
 .hero label {
@@ -168,7 +175,7 @@ hr {
 
 .hero input {
 	transform: translateX(-140px);
-	width: 137px;
+	width: 138px;
 }
 
 .file {
@@ -186,7 +193,7 @@ hr {
 }
 
 .name {
-	display: flex
+	display: flex;
 }
 
 .n {
@@ -196,4 +203,25 @@ hr {
 .e {
 	margin-left: 10px;
 	margin-right: 36px;
+}
+
+.n input {
+	width: 237px;
+}
+
+.e input {
+	width: 237px;
+}
+
+.zp {
+	display: flex;
+	margin-left: 36px;
+}
+
+.zp p {
+	margin-bottom: 0;
+}
+
+.p {
+	margin-left: 10px;
 }
