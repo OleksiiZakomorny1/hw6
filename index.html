@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Forms</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 			<div class="flname">
 				<label class="firstname">
 					First Name
-					<input name="firstname" type="text">
+					<input name="firstname" type="text" required>
 				</label>
 				<label class="lastname">
 					Last Name
@@ -29,7 +29,7 @@
 			<div>
 				<label class="email">
 					E-mail
-					<input name="e-mail" type="email">
+					<input name="e-mail" type="email" required>
 					<p>
 						We'll never share your email with anyone else.
 					</p>
@@ -41,7 +41,7 @@
 					<p>Male</p>
 				</label>
 				<label class="gender">
-					<input name="gender" type="radio" class="gender">
+					<input name="gender" type="radio">
 					<p>Female</p>
 				</label>
 			</div>
@@ -53,6 +53,7 @@
 							<option value="ua">Ukraine</option>
 							<option value="usa">USA</option>
 							<option value="de">Germany</option>
+							<option value="pl">Poland</option>
 						</select>
 					</label>
 				</div>
@@ -83,9 +84,12 @@
 			<h2>Profile</h2>
 			<div class="hero">
 				<img src="assets/images/Image.png" alt="Profile picture">
-				<label class="file">
-					<input type="file" name="image">
-				</label>
+				<div class="img">
+					<label class="file">
+						<input type="file" name="image">
+					</label>
+					<p>Up to 1 MB (300x300 px)</p>
+				</div>
 				<button class="trash"></button>
 			</div>
 			<div class="name">
@@ -106,6 +110,7 @@
 							<option value="ua">Ukraine</option>
 							<option value="usa">USA</option>
 							<option value="de">Germany</option>
+							<option value="pl">Poland</option>
 						</select>
 					</label>
 				</div>
@@ -123,9 +128,10 @@
 				</label>
 				<label class="p">
 					<p>Phone Number</p>
-					<input name="email" type="phone number">
+					<input name="email" type="tel">
 				</label>
 			</div>
+			<button class="update">Update</button>
 		</form>
 	</section>
 </body>
