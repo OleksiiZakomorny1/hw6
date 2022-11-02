@@ -1,0 +1,105 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #E5E5E5;
+}
+
+.account {
+	background-color: white;
+	width: 570px;
+	height: 590px;
+	border-radius: 5px;
+
+}
+
+input {
+	height: 32px;
+	border-radius: 5px;
+	border-color: #E4E4E4;
+	color: #545454;
+}
+
+select {
+	border-radius: 5px;
+	border-color: 1px solid #E4E4E4;
+	height: 38px;
+	color: #545454;
+}
+
+.flname {
+	display: flex;
+	gap: 12px;
+}
+
+.firstname,
+.lastname {
+	width: 245px;
+	height: 67px;
+	display: flex;
+	flex-direction: column;
+}
+
+.email {
+	width: 500px;
+	height: 92px;
+	display: flex;
+	flex-direction: column;
+}
+
+.email p {
+	font-size: 13px;
+	color: #969696;
+}
+
+.gender {
+	font-size: 15px;
+}
+
+.cc {
+	display: flex;
+	gap: 10px;
+}
+
+.country select {
+	width: 245px;
+}
+
+.city input {
+	width: 235px;
+}
+
+.signup {
+	width: 500px;
+	height: 38px;
+	background-color: #007BFF;
+	color: #E4E4E4;
+	border-radius: 5px;
+	border: 0;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.privacy {
+	text-align: center;
+}
+
+.privacy,
+.have a {
+	text-decoration: none;
+	color: #007BFF;
+}
+
+hr {
+	width: 500px;
+}
+
+.have {
+	display: flex;
+	justify-content: center;
+}
+
+.have a {}
+
+.have p {
+	margin-top: 0px;
+	margin-right: 20px;
+}
