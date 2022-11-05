@@ -197,6 +197,7 @@ hr {
 .file {
 	background: url(assets/images/Camera.svg) no-repeat right;
 	border-radius: 5px;
+	margin-bottom: 5px;
 }
 
 .trash {
