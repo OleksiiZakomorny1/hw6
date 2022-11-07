@@ -40,7 +40,7 @@ input:link {
 
 select {
 	border-radius: 5px;
-	border-color: 1px solid #E4E4E4;
+	border: 1px solid #E4E4E4;
 	height: 38px;
 	color: #545454;
 	border-style: solid;
