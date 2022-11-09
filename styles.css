@@ -1,14 +1,28 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #E5E5E5;
+	display: flex;
+	gap: 30px;
+	margin-left: 135px;
 }
 
-.account {
-	background-color: white;
-	width: 570px;
-	height: 590px;
-	border-radius: 5px;
+input,
+select {
+	margin-top: 7px;
+}
 
+.account,
+.profile {
+	background-color: white;
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	padding-top: 35px;
+	margin-top: 55px;
+}
+
+h2 {
+	margin-left: 36px;
 }
 
 input {
@@ -16,13 +30,20 @@ input {
 	border-radius: 5px;
 	border-color: #E4E4E4;
 	color: #545454;
+	outline-color: #007BFF;
+	border-style: solid;
+}
+
+input:link {
+	border-color: #007BFF;
 }
 
 select {
 	border-radius: 5px;
-	border-color: 1px solid #E4E4E4;
+	border: 1px solid #E4E4E4;
 	height: 38px;
 	color: #545454;
+	border-style: solid;
 }
 
 .flname {
@@ -38,11 +59,19 @@ select {
 	flex-direction: column;
 }
 
+.firstname {
+	margin-left: 36px;
+}
+
+.lastname {
+	margin-right: 36px;
+}
+
 .email {
 	width: 500px;
-	height: 92px;
 	display: flex;
 	flex-direction: column;
+	margin-left: 36px;
 }
 
 .email p {
@@ -50,13 +79,32 @@ select {
 	color: #969696;
 }
 
+.g {
+	display: flex;
+}
+
 .gender {
+	display: flex;
+}
+
+label .gender {
+	margin-left: 36px;
+}
+
+.gender p {
+	margin-top: 10px;
 	font-size: 15px;
+	transform: translateY(5px);
 }
 
 .cc {
 	display: flex;
 	gap: 10px;
+	margin-left: 36px;
+}
+
+.cc p {
+	margin-bottom: 0px;
 }
 
 .country select {
@@ -64,7 +112,7 @@ select {
 }
 
 .city input {
-	width: 235px;
+	width: 237px;
 }
 
 .signup {
@@ -76,14 +124,24 @@ select {
 	border: 0;
 	font-size: 15px;
 	margin-top: 20px;
+	margin-left: 36px;
 }
 
 .privacy {
 	text-align: center;
 }
 
-.privacy,
-.have a {
+a {
+	text-decoration: none;
+	color: #007BFF;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #007BFF;
+}
+
+a:hover {
 	text-decoration: none;
 	color: #007BFF;
 }
@@ -95,11 +153,116 @@ hr {
 .have {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 16px;
 }
-
-.have a {}
 
 .have p {
 	margin-top: 0px;
 	margin-right: 20px;
+}
+
+.hero {
+	display: flex;
+	margin-left: 36px;
+	margin-bottom: 20px;
+}
+
+.hero label {
+	display: block;
+	border: 1px solid;
+	border: 1px solid black;
+	margin-left: 20px;
+	border-color: #E4E4E4;
+	height: 30px;
+}
+
+.hero input {
+	transform: translateX(-170px);
+	width: 138px;
+}
+
+.img {
+	overflow: hidden;
+}
+
+.img p {
+	font-size: 13px;
+	color: #969696;
+	font-size: 13px;
+	padding-left: 10px;
+	margin-top: 0;
+	margin-left: 11px;
+}
+
+.file {
+	background: url(assets/images/Camera.svg) no-repeat right;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.trash {
+	background: url(assets/images/Trash.svg) no-repeat center;
+	border-radius: 5px;
+	border-color: #E4E4E4;
+	height: 31px;
+	width: 31px;
+	margin-left: 10px;
+}
+
+.name {
+	display: flex;
+}
+
+.n {
+	margin-left: 36px;
+	display: flex;
+	flex-direction: column;
+}
+
+.e {
+	margin-left: 10px;
+	margin-right: 36px;
+	display: flex;
+	flex-direction: column;
+}
+
+.n input {
+	width: 237px;
+}
+
+.e input {
+	width: 237px;
+}
+
+.zp {
+	display: flex;
+	margin-left: 36px;
+}
+
+.zp p {
+	margin-bottom: 0;
+}
+
+.p {
+	margin-left: 10px;
+}
+
+.z input {
+	width: 237px;
+}
+
+.p input {
+	width: 237px;
+}
+
+.update {
+	margin-left: 36px;
+	margin-top: 20px;
+	width: 150px;
+	height: 38px;
+	background-color: #007BFF;
+	color: #E4E4E4;
+	border-radius: 5px;
+	border: 0;
+	font-size: 15px;
 }
